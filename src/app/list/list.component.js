@@ -5,13 +5,12 @@ define([], function () {
     'use strict';
 
     return ng.core.Component({
-        selector: 'app-root',
-        templateUrl: 'app/app.component.html',
-        styleUrls: ['app/app.component.css']
+        selector: 'app-list',
+        templateUrl: 'app/list/list.component.html'
     })
         .Class({
             constructor: function () {
-                this.title = 'angular2-requirejs';
+                this.title = 'liste';
             }
         });
 });

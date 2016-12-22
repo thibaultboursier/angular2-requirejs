@@ -1,8 +1,9 @@
 define([
     'app/app.component',
     'app/app.route',
-    'app/foo/foo.component'
-], function (AppComponent, APP_ROUTES, FooComponent) {
+    'app/home/home.component',
+    'app/list/list.component'
+], function (AppComponent, APP_ROUTES, HomeComponent, ListComponent) {
     'use strict';
 
     return ng.core.NgModule({
@@ -12,7 +13,8 @@ define([
         ],
         declarations: [
             AppComponent,
-            FooComponent
+            HomeComponent,
+            ListComponent
         ],
         bootstrap: [
             AppComponent

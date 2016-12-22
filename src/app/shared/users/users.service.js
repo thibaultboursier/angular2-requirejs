@@ -4,11 +4,7 @@
 define([], function () {
     'use strict';
 
-    return ng.core.Component({
-        selector: 'app-root',
-        templateUrl: 'app/app.component.html',
-        styleUrls: ['app/app.component.css']
-    })
+    return ng.core.Component({})
         .Class({
             constructor: function () {
                 this.title = 'angular2-requirejs';
