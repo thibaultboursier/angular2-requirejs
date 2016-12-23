@@ -1,0 +1,12 @@
+header {
+    background-color: darkslateblue;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 2em;
+    font-family: Arial, sans-serif;
+}

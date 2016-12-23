@@ -5,8 +5,8 @@ define([], function () {
     'use strict';
 
     return ng.core.Component({
-        selector: 'app-root',
-        templateUrl: 'app/foo/foo.component.html'
+        selector: 'app-home',
+        templateUrl: 'app/home/home.component.html'
     })
         .Class({
             constructor: function () {

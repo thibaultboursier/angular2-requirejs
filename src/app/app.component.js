@@ -6,7 +6,8 @@ define([], function () {
 
     return ng.core.Component({
         selector: 'app-root',
-        templateUrl: 'app/app.component.html'
+        templateUrl: 'app/app.component.html',
+        styleUrls: ['app/app.component.css']
     })
         .Class({
             constructor: function () {
