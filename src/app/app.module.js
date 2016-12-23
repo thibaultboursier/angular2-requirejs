@@ -2,8 +2,9 @@ define([
     'app/app.component',
     'app/app.route',
     'app/home/home.component',
-    'app/list/list.component'
-], function (AppComponent, APP_ROUTES, HomeComponent, ListComponent) {
+    'app/list/list.component',
+    'app/shared/users/users.service'
+], function (AppComponent, APP_ROUTES, HomeComponent, ListComponent, UsersService) {
     'use strict';
 
     return ng.core.NgModule({
@@ -15,6 +16,9 @@ define([
             AppComponent,
             HomeComponent,
             ListComponent
+        ],
+        providers: [
+            UsersService
         ],
         bootstrap: [
             AppComponent

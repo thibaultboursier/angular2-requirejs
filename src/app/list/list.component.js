@@ -1,7 +1,9 @@
 /**
  * Created by Thibault on 20/12/2016.
  */
-define([], function () {
+define([
+    'app/shared/users/users.service'
+], function (UsersService) {
     'use strict';
 
     return ng.core.Component({
@@ -9,8 +11,8 @@ define([], function () {
         templateUrl: 'app/list/list.component.html'
     })
         .Class({
-            constructor: function () {
-                this.title = 'liste';
-            }
+            constructor: [UsersService, function (UsersService) {
+                this.users = UsersService.findAll();
+            }]
         });
 });
