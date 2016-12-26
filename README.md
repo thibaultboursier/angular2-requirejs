@@ -11,3 +11,4 @@ Then, run lite-server (port 8000)
 ```
 lite-server
 ```
+Next step is to make components registered on the fly.
