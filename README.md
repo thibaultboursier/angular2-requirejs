@@ -9,7 +9,7 @@ First, install NPM dependencies.
 ```
 npm install
 ```
-Then, run lite-server (port 8000)
+Then, run lite-server (port 8000) :
 ```
 lite-server
 ```
